@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacts</title>
+    <link rel="stylesheet" href="contacts.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+        
+        <img src="menu.png" alt="photo menu" class="menu">
+        <div class="icone">
+            
+            <ul>
+                <li class="accueil"><a href="index.html">Accueil</a></li>
+                <li class="propos"><a href="propos.html">propos</a></li>
+                <li class="Projets"><a href="projet.html">Projets</a></li>
+                <li class="contacts"><a href="contacts.html">contacts</a></li>
+              </ul>
+            </div>
+         
+            
+               </nav>
+              
+            
+              <div class="cont">
+                  <b>Mes contacts</b>
+   
+                    <div class="icon">
+    
+                  <ul>
+                 <span> <i class="fa fa-volume-control-phone" aria-hidden="true"></i></span> 
+                  <span>  92331415</span> <br><br><br>
+                  <span>  <i class="fa fa-envelope-o" aria-hidden="true"></i> </span> 
+                  <span> <a href="djirekadia97@gmail.com"> djirekadia97@gmail.com</a><br><br><br></span>
+                   <span>  <i class="fa fa-map-marker" aria-hidden="true"></i> </span> 
+                    <span> Bamako,Mali </span> <br><br><br>
+                        <span><i class="fa fa-globe" aria-hidden="true"></i> </span>
+                            <span> djirekadia.com </span> <br><br><br>
+                       <ul> 
+           </div>
+               <div class="form">
+          <form action="lab">
+            <label for="Mon et prenom"></label>
+            <input type="text"PLaceholder="Mon et prenom" width="40%"><br>
+            <label for="Email"></label>
+            <input type="text"PLaceholder="Email"><br>
+            <label for="Message"></label>
+            <textarea name="" id="" cols="30" rows="10"PLaceholder="Message"></textarea>
+            </form>
+           </div>
+     </div>
+    
+    <div class="con">
+        <b>Envoyer</b>
+    </div> 
+    <script>
+        const menu =document.querySelector(".menu")
+        const icon =document.querySelector(".icone")
+        
+        menu.addEventListener('click',()=>{
+        icon .classList.toggle('mobile-menu')
+        })
+        </script>   
+   
+</body>
+</html>

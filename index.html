@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv porfolio</title>
+    <link rel="stylesheet" href="accueil.css">
+<body>
+    <nav>
+        <h1>Portfolio</h1>
+         <ul  class="icone">
+            <li class="accueil"><a href="index.html">Accueil</a></li>
+            <li class="propos"><a href="propos.html">propos</a></li>
+            <li class="Projets"><a href="projet.html">Projets</a></li>
+            <li class="contacts"><a href="contacts.html">contacts</a></li>
+        </ul>
+        <img src="menu.png" alt="photo menu" class="menu"> 
+   
+    </nav>
+  
+<div class="contenu">
+    <div class="cont-bas">
+        <h2 id="Salut">Salut et bienvenue .</h2>
+        <h2>Je suis, Kadia djire</h2>
+        <h4>Etudiante en licence 2.<h4>
+            <ul>
+                <li><a href="kd cv1.pdf">Telecharger cv</a></li>
+              </ul> 
+           </div>
+            
+        <div class="tanti">
+            <img src="img.png" alt="photo" >
+        </div> <br><br>
+        
+    </div>
+    <script>
+        const menu =document.querySelector(".menu")
+        const icon =document.querySelector(".icone")
+        
+        menu.addEventListener('click',()=>{
+        icon .classList.toggle('mobile-menu')
+        })
+        </script>  
+     
+    
+</body>
+</html>

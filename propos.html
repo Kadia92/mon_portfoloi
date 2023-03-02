@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>propos</title>
+    <link rel="stylesheet" href="propos.css">
+</head>
+<body>
+    
+       <nav>
+        <h1>Portfolio</h1>
+            
+            <ul class="icone">
+                <li class="accueil"><a href="index.html">Accueil</a></li>
+                <li class="propos"><a href="propos.html">propos</a></li>
+                <li class="Projets"><a href="projet.html">Projets</a></li>
+                <li class="contacts"><a href="contacts.html">contacts</a></li>
+              </ul>
+              
+        
+        <img src="menu.png" alt="photo menu" class="menu">
+        </nav>
+        <div class="contenu">
+            <div class="img">
+                <img src="img.png" alt="photo" class="images" >
+            </div>
+            <div class="left">
+                <h2>A propos de moi</h2>
+                <p>Etudiante a l'école supérieur commerce et de technologie.<br>
+                    et une formation de développeur (Ik développement)<br>
+                    en cour.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                     Dolor quibusdam blanditiis veniam tenetur, et alias adipisci <br>
+                     aspernatur enim cupiditate at veritatis repellendus ut natus <br>
+                      numquam perspiciatis praesentium autem inventore minima?</p>
+              
+              
+            </div>          
+             
+            
+        </div> 
+            <script>
+                const menu =document.querySelector(".menu")
+                const icon =document.querySelector(".icone")
+                
+                menu.addEventListener('click',()=>{
+                icon .classList.toggle('mobile-menu')
+                })
+            </script>       
+    
+</body>
+</html>

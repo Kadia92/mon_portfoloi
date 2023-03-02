@@ -1,0 +1,174 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:rgb(47, 46, 46);
+    }
+   a{
+    padding: 10px 27px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(232, 232, 246);
+    margin:auto;
+   }
+.contenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+    margin: 0%;
+    
+  
+
+}
+
+.contenu img{
+        width: 400px;
+        height: 450px;
+        margin-left:0px ;
+        
+
+}
+h1{
+    margin-top: 0%;
+    
+    font-size: 30px;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #696363 ;
+    padding-top: 0%;
+}
+
+
+nav ul li {
+    
+    list-style-type: none;
+     float: left;
+     margin-top: -9%;
+}
+nav a{
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(225, 225, 230);
+   
+    font-size: 20px;
+    display: inline-block;
+}
+.icone{
+    display: table;
+    margin: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    word-spacing: 40px;
+}
+    .cont-bas ul li{
+        left: 30%;
+         list-style : none;
+        text-align: center;
+       }
+    
+    .cont-bas ul li a{
+      color: black;
+        text-decoration: none;
+        background: gray;
+        border-radius: 5px;
+        margin-top: 0px;
+        
+    }
+    .cont-bas{
+        
+        font-size: 40px;
+        margin-top: 0px;
+       
+        
+    }
+    .tanti{
+        margin: 0px;
+        
+    }
+    h2{
+        padding-left: 4px;
+        color: white;
+        
+    }
+    h4{
+        padding-left: 30px;
+        color: white;
+    }
+    .menu{
+        width: 25px;
+        display: none;
+     }
+   
+    
+    @media screen and (max-width:675px) {
+        .contenu{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .icone{
+            top: 0;
+            left: 0;
+            position: absolute;
+            backdrop-filter: blur(7px);
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -150%;
+            transition: all 0.5s ease;
+        }
+        nav h1{
+           
+            padding-left: 15px;
+            padding-top: 18px;
+        }
+        h2{
+            padding-left: 4px;
+            font-size: 35px;
+            
+        }
+        h4{
+            padding-left: 10px;
+            font-size: 35px;
+        }
+        
+        
+       .contenu img{
+        width: 300px;
+       }
+       nav{
+        padding: 0px;
+    }
+    .menu{
+        display: block;
+      
+    }
+    .mobile-menu{
+        margin-left: 0;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav .icone li{
+        margin: 25px 0;
+        font-size: 1.2em;
+    }
+    }
+    nav img{
+        position: absolute;
+        top: 20px;
+        left: 170px;
+    }
+
+    
+  
+    
